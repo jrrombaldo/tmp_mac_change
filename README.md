@@ -7,26 +7,26 @@ NOTE: It's required root permissions to chnage a NIC config, so that is required
 
 Examples:
 When there is a specific target MAC:
-    sudo tmp_mac_change.sh en0 00-60-2f-CF-BE-70
+        sudo tmp_mac_change.sh en0 00-60-2f-CF-BE-70
     
 When there's no specific MAC and the script will generate a random one:
-    sudo tmp_mac_change.sh en0
+        sudo tmp_mac_change.sh en0
     
 In both scenarios, the script will ask for confirmation to change the MAC, as well will wait for confirmation to roll back the change.
 
 
 Output example:
 
-CHANGE MAC ADDRESS FOR A WHILE 
-  
-         en0  00-60-2f-40-E3-38 -> 00-60-2f-CF-BE-70 
-
-[Enter] to change ...
-
-        Current MAC: 00:60:2f:cf:be:70 
-
-[Enter] to revert ...
-
-        Current MAC: 00-60-2f-40-E3-38
+        CHANGE MAC ADDRESS FOR A WHILE 
+          
+                 en0  00-60-2f-40-E3-38 -> 00-60-2f-CF-BE-70 
+        
+        [Enter] to change ...
+        
+                Current MAC: 00:60:2f:cf:be:70 
+        
+        [Enter] to revert ...
+        
+                Current MAC: 00-60-2f-40-E3-38
         
   
