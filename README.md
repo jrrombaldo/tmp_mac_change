@@ -1,11 +1,11 @@
 # tmp_mac_change
 
 ## Description
-This script aims to change temporary the MAC address of a specifc interface and revert it back.
-It's accept two paramters, a NIC (Network Interface) and the desired MAC address. Being the second one not required, and when not specified the script will generate a random MAC starting with 00-60-2f.
+This script aims to change temporary the MAC address of a specific interface and revert it back.
+It's accept two parameters, a NIC (Network Interface) and the desired MAC address. Being the second one not required, and when not specified the script will generate a random MAC starting with 00-60-2f.
 
 
-NOTE: It's required root permissions to chnage a NIC config, so that is required run this script with root privileges
+NOTE: It's required root permissions to change a NIC config, so that is required run this script with root privileges
 
 
 ### Examples:
